@@ -1,0 +1,41 @@
+body {
+    background-color: #efebd3;
+    color: black;
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+#menu {
+    font-size: 75px;
+
+}
+
+.container-fluid-mt-5 {
+	margin-top: 120px;
+	background-color: #432818;
+	color: white;
+	text-align: justify;
+	padding: 20px;
+}

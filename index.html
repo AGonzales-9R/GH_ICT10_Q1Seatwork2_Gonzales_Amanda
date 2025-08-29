@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- PYSCRIPT CDN -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+	
+    <!-- SETUP BOOTSTAP: LINK TO BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- FONT EMBED -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <title>Seatwork 2: Understanding Data</title>
+</head>
+<body>
+    <!-- PYSCRIPT LINK -->
+    <py-script src="main.py"></py-script>
+
+    <p style="background-color: #432818; font-size: 30px; color: white;"><a href="#member">Enjoy 50% off when you sign up to our membership!</a></p>
+
+    <!-- HEADER -->
+    <a href="https://www.canva.com/design/DAGxdWoDzrs/Eo_ld-6FevHe6iw59UzgzA/edit?utm_content=DAGxdWoDzrs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+        <img src="amgbakerylogo.png" style="width: 20%;">
+    </a>
+    <div id="heather">
+        <h1 id="brand_name"></h1>
+        <h2 id="tagline"></h2>
+        <h5 id="owner"></h5>
+        <h6 id="year"></h6>
+    </div>
+    
+    <br>
+
+    <!-- CAROUSEL -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- INNDICATORS -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- SLIDESHOW -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#ban">
+                    <img src="bananabreadcarousel.png" alt="banana" class="d-block w-100">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#choc">
+                    <img src="chocochipcarousel.png" alt="cookie" class="d-block w-100">
+                </a>
+            </div>
+        </div>
+
+        <!-- ICONS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <hr>
+    <br>
+    <br>
+
+    <!-- CARDS -->
+
+    <h2 id="menu">Our Menu</h2>
+
+    <br>
+
+    <!-- ROW1 -->
+     <div id="cardss" class="container d-flex justify-content-center">
+        <div class="row">   
+         
+        <div class="col md-4 mb-3" id="ban">    
+            <div class="card" style="width:300px">
+            <img class="card-img-top" src="bananabread.png" alt="image1">
+            <div class="card-body">
+                <h4 id="card-title1"></h4>
+                <p id="card-price1"></p>
+                <p id="card-allergens1"></p>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>    
+            </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col md-4 mb-3" id="choc">
+            <div class="card" style="width:300px">
+            <img class="card-img-top" src="chocochip.png" alt="image2">
+            <div class="card-body">
+                <h4 id="card-title2"></h4>
+                <p id="card-price2"></p>
+                <p id="card-allergens2"></p>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>        
+            </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col md-4 mb-3">
+            <div class="card" style="width:300px">
+            <img class="card-img-top" src="brownie.png" alt="image3">
+            <div class="card-body">
+                <h4 id="card-title3"></h4>
+                <p id="card-price3"></p>
+                <p id="card-allergens3"></p>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>        
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- ROW2 -->
+     <div id="cardss" class="container d-flex justify-content-center">
+        <div class="row">   
+         
+        <div class="col md-4 mb-3">    
+            <div class="card" style="width:300px">
+            <img class="card-img-top" src="velvet.png" alt="image4">
+            <div class="card-body">
+                <h4 id="card-title4"></h4>
+                <p id="card-price4"></p>
+                <p id="card-allergens4"></p>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>    
+            </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col md-4 mb-3">
+            <div class="card" style="width:300px">
+            <img class="card-img-top" src="cinna.png" alt="image5">
+            <div class="card-body">
+                <h4 id="card-title5"></h4>
+                <p id="card-price5"></p>
+                <p id="card-allergens5"></p>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>        
+            </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col md-4 mb-3">
+            <div class="card" style="width:300px">
+            <img class="card-img-top" src="pie.png" alt="image3">
+            <div class="card-body">
+                <h4 id="card-title6"></h4>
+                <p id="card-price6"></p>
+                <p id="card-allergens6"></p>
+            <a href="#" class="btn btn-outline-dark">Add to cart</a>        
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-fluid-mt-5">
+		<div class="row">
+			<div class="col-md-4 mt-3 mb-3" id="member">
+				<h2>Interested in joining our  membership?</h2>
+				<form>
+					<input type="email" name="joinMembership" id="inputJoinMembership" class="form-control" placeholder="Enter your email address">
+				</form>	
+
+				<br>
+				
+				<div class="d-grid">
+					<button class="btn btn-outline-light btn-block" type="button">Submit</button>
+				</div>
+			</div>
+
+			<div class="col-md-4 mt-3 mb-3">
+				<h2>Contact Us!</h2>
+				<h4>Email: amg.bakery@gmail.com</h4>
+                <hr>
+                <h2>References:</h2>
+				<h4>All pictures used are from: <a href="https://www.canva.com/">Canva</a></h4>
+			</div>
+			
+            <div class="col-md-4 mt-3 mb-3">
+                <h2>Extra Information:</h2>
+                <h4 id="delivery"></h4>
+                <h4 id="hours"></h4>
+                <h4 id="tax"></h4>
+				
+			</div>
+			<hr>
+			<h2 style="text-align: center;">&#169; <a href="https://github.com/AGonzales-9R">Amanda Gonzales</a> | 10-Ruby</h2>
+		</div>
+	</div>
+
+    
+</body>
+</html>
