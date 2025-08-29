@@ -1,0 +1,2 @@
+# GH_ICT10_Q1Seatwork2_Gonzales_Amanda
+Q1SW2
